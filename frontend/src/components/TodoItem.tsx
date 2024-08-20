@@ -69,7 +69,7 @@ const TodoItem = ({ todo }: { todo: Todo }) => {
     },
   });
 
-  // Define color values based on the color mode
+  // define color values based on the color mode
   const borderColor = useColorModeValue('gray.300', 'gray.600');
   const textColor = useColorModeValue(todo.completed ? 'green.700' : 'gray.900', todo.completed ? 'green.200' : 'yellow.300');
   const doneBadgeColor = 'green';
